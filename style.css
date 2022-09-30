@@ -1,0 +1,21 @@
+.grid{
+	height: 400px;
+	width: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color:grey ;
+}
+
+/*the minesweeper is 10 * 10 each one of them 40 width and 40 height it means 400 and 400 px*/
+
+.grid div{
+	width: 40px;
+	height: 40px;
+}
+
+.checked{
+	background-color: red;
+}
+/*.bomb{
+	background-color: orange;
+}*/
